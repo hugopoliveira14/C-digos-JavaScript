@@ -1,0 +1,16 @@
+let anoNascimento = parseInt(prompt("Qual seu ano de nascimento:"));
+let anoAtual = parseInt(prompt("Qual o ano atual:"));
+
+let idade = anoAtual - anoNascimento;
+let idade2050 = anoAtual - 2050;
+
+console.log("Sua idade é:" + idade);
+console.log("Sua idade em 2050 é:" + idade2050);
+
+let aumento = parseInt(prompt("% de aumento:"));
+let salárioAtual = parseInt(prompt("Qual o salário atual:"));
+
+let novoSalario = aumento * salárioAtual
+
+console.log(novoSalario);
+console.log("Seu Novo Salário é:", novoSalario);
